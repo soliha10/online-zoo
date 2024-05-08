@@ -1,0 +1,121 @@
+.testimonial {
+  padding-block: 32px 42px;
+}
+.testimonial-title {
+  margin-block: 0 30px;
+  color: var(--black, #0D444D);
+font-family: 'Rubik';
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-transform: uppercase;
+}
+.testimonial-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 24px;
+  padding-bottom: 22px;
+}
+.testimonial-item {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+}
+.item-decision {
+  background-image: url("../../assets/images/message-bg-mob.svg  ");
+  background-repeat: no-repeat;
+  background-size: cover;
+  // background-position: center;
+  // box-shadow: 0px 2px 30px 0px #0000000F;
+  padding: 32px 28px 47px;
+  background-color: transparent;
+}
+.item-time {
+  margin-top: 20px;
+  margin-bottom: 11px;
+  display: inline-block;
+  color: #B3B3B3;
+font-family: 'Roboto';
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.item-info {
+  margin-block: 0;
+  color: #2D2D2D;
+font-family: 'Roboto';
+font-size: 14px;
+font-style: italic;
+font-weight: 400;
+line-height: 20px; /* 142.857% */
+}
+.item-name {
+  display: flex;
+  align-items: center;
+  color: #000;
+font-family: 'Roboto';
+font-size: 14px;
+font-style: italic;
+font-weight: 400;
+line-height: normal;
+}
+.testimonial-item:first-child .item-name::before {
+  content: '';
+  margin-inline: 19px 10px;
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  background-image: url("../../assets/images/adam.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.testimonial-item:nth-child(2) .item-name::before {
+  content: '';
+  margin-inline: 19px 10px;
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  background-image: url("../../assets/images/chriss.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.testimonial-item:last-child .item-name::before {
+  content: '';
+  margin-inline: 19px 10px;
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  background-image: url("../../assets/images/amely.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.testimonial-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  width: 269px;
+  padding: 10px 18px;
+  color: var(--bttn-lined, #19707D);
+  font-family: "Roboto Mono";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
+  border: 1px solid #19707d;
+  border-radius: 100px;
+}
+.testimonial-link::before {
+  content: '';
+  width: 20px;
+  height: 20px;
+  margin-right: 14px;
+  display: inline-block;
+  background-image: url("../../assets/images/message-icon.svg");
+  background-repeat: no-repeat;
+}

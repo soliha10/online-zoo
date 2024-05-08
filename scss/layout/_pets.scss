@@ -1,0 +1,132 @@
+.pets {
+  padding-block: 11px 30px;
+}
+
+.pets-title {
+  margin-block: 0 22px;
+  color: var(--black, #0D444D);
+  font-family: 'Rubik';
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.pets-list {
+  padding-left: 15px;
+  padding-bottom: 52px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  row-gap: 20px;
+}
+
+.pets-item {
+  position: relative;
+  width: 240px;
+  padding-block: 17px 20px;
+  border-radius: 10.909px;
+  box-shadow: 0px 2.182px 32.727px 0px rgba(0, 0, 0, 0.06);
+}
+.pets-item::before {
+  content: '';
+  width: 26px;
+  height: 28px;
+  display: block;
+  background-image: url("../../assets/images/tv.svg");
+  background-repeat: no-repeat;
+  margin-left: auto;
+  margin-right: 22px;
+  margin-bottom: 5px;
+  
+}
+.pets-item:first-child::after {
+  content: '';
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  background-image: url("../../assets/images/line-left-mob.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  right: -35px;
+  bottom: 15px;
+  transform: rotate(180deg);
+
+}
+.pets-item:nth-child(3)::after {
+  content: '';
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  background-image: url("../../assets/images/line-left-mob.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  right: -45px;
+  top: -8px;
+
+}
+
+.pets-pic {
+  margin: 0 auto;
+  margin-bottom: 31px;
+}
+
+.pets-item-info-wrapper {
+  padding-top: 12px;
+  border-top: 1px solid #dee8ea;
+  padding-inline: 15px;
+}
+
+.pets-name {
+  margin-block: 0 10px;
+  color: #2D2D2D;
+  font-family: 'Roboto';
+  font-size: 17.455px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.pets-info {
+  margin-block: 0;
+  color: #909090;
+  font-family: 'Roboto';
+  font-size: 13.091px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.pets-link {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  width: 269px;
+  padding: 10px 18px;
+  color: var(--bttn-lined, #19707D);
+  font-family: "Roboto Mono";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
+  border: 1px solid #19707d;
+  border-radius: 100px;
+}
+.pets-link::before {
+  content: '';
+  width: 20px;
+  height: 20px;
+  margin-right: 14px;
+  display: inline-block;
+  background-image: url("../../assets/images/heart.svg");
+  background-repeat: no-repeat;
+}
+.pets-item:nth-child(2),
+.pets-item:nth-child(4),
+.pets-item:nth-child(5),
+.pets-item:last-child {
+  display: none;
+}

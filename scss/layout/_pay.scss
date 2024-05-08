@@ -1,0 +1,129 @@
+.pay {
+  background-image: url("../../assets/images/Group\ 6.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-block: 20px;
+}
+
+.pay-wrapper {
+  background-color: #2A8086;
+  padding-block: 30px 70px;
+}
+
+.pay-title {
+  margin-block: 0 22px;
+  color: var(--white, #C5E1E5);
+  font-family: 'Rubik';
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.pay-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 31px;
+  padding-bottom: 50px;
+}
+
+.pay-item {
+  width: 186px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: var(--white, #C5E1E5);
+  text-align: center;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.pay-item:first-child::before {
+  content: '';
+  width: 113px;
+  height: 113px;
+  display: inline-block;
+  margin-bottom: 8px;
+  border-radius: 50%;
+  box-shadow: 0px 2px 50px 0px #B9D5D999;
+  background-color: #fff;
+  background-image: url("../../assets/images/okay.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 40px 40px;
+}
+
+.pay-item:nth-child(2)::before {
+  content: '';
+  width: 113px;
+  height: 113px;
+  display: inline-block;
+  margin-bottom: 8px;
+  border-radius: 50%;
+  box-shadow: 0px 2px 50px 0px #B9D5D999;
+  background-color: #fff;
+  background-image: url("../../assets/images/hand-apple.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 40px 40px;
+}
+
+.pay-item:last-child::before {
+  content: '';
+  width: 113px;
+  height: 113px;
+  display: inline-block;
+  margin-bottom: 8px;
+  border-radius: 50%;
+  box-shadow: 0px 2px 50px 0px #B9D5D999;
+  background-color: #fff;
+  background-image: url("../../assets/images/monkay.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 40px 40px;
+}
+
+.pay-item:first-child::after {
+  content: '';
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  margin-top: 28px;
+  background-image: url("../../assets/images/line-bottom-mob.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.pay-item:nth-child(2)::after {
+  content: '';
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  margin-top: 28px;
+  background-image: url("../../assets/images/line-bottom-mob.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.pay-link {
+  display: inline-block;
+  width: 300px;
+  padding: 11px 20px;
+  border-radius: 100px;
+  background-color: var(--white, #c5e1e5);
+  text-align: center;
+  color: var(--black, #0D444D);
+  font-family: "Roboto Mono";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.7px;
+  text-transform: uppercase;
+  box-shadow: 0px 2px 50px 0px #B9D5D999;
+}

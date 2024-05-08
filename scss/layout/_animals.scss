@@ -1,0 +1,46 @@
+.animals {
+  padding-bottom: 30px;
+}
+.animals-title {
+  margin-block: 0 24px;
+  color: var(--black, #0D444D);
+font-family: 'Rubik';
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-transform: uppercase;
+}
+.animals-list {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 24px;
+  padding-bottom: 31px;
+}
+.animals-item {
+  width: 100px;
+  padding-block: 16px 15px;
+  text-align: center;
+}
+.animals-pic {
+  margin: 0 auto;
+  margin-bottom: 8px;
+}
+.animals-name {
+  color: #2d2d2d;
+font-family: "Roboto Mono";
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+text-transform: uppercase;
+}
+.animals-inner::after {
+  content: '';
+  width: 30px;
+  height: 30px;
+  display: block;
+  margin: 0 auto;
+  background-image: url("../../assets/images/line-bottom-green-mob.png");
+  background-repeat: no-repeat;
+}

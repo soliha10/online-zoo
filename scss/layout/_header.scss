@@ -1,0 +1,63 @@
+.site-header {
+  background: var(--bg, #2A8086);
+  padding-block: 5px 7px;
+  position: relative;
+  box-shadow: 0px 1px 10px 0px #12575B40;
+
+}
+
+.header-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+.header-nav {
+  display: none;
+  
+}
+.header-bnts {
+  display: none;
+}
+.open .header-nav {
+  display: block;
+  position: absolute;
+  top: 54px;
+  left: 0;
+  padding-block: 18px 34px;
+  background-color: #2A8086;
+  width: 100vw;
+  // height: 100vh;
+  text-align: center;
+  z-index: 5;
+}
+
+
+.header-btn {
+  background-image: url("../../assets/images/menu-btn.svg");
+  width: 35px;
+  height: 35px;
+  border: none;
+  background-repeat: no-repeat;
+  background-color: transparent;
+}
+
+.header-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header-item {
+  padding-block: 14px;
+}
+
+.header-link {
+  color: var(--hero-text, #f3f7f8);
+  font-family: "Roboto Mono";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+}

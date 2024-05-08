@@ -1,0 +1,74 @@
+.hero {
+  position: relative;
+  background-color: #2A8086;
+  padding-block: 20px 30px;
+}
+
+.hero::after {
+  content: '';
+  position: absolute;
+  display: inline-block;
+  width: 100vw;
+  height: 50px;
+  background-image: url("../../assets/images/hero-bg-mob.png");
+}
+
+.hero-pic {
+  margin: 0 auto;
+  margin-bottom: 16px;
+}
+
+.hero-title {
+  margin-block: 0 18px;
+  color: var(--hero-text, #f3f7f8);
+  font-family: 'Rubik';
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.hero-title-part {
+  color: var(--hero-text, #F3F7F8);
+  font-family: 'Rubik';
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.hero-desc {
+  margin-block: 0 16px;
+  color: var(--hero-text, #F3F7F8);
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.hero-link {
+  display: inline-block;
+  width: 139px;
+  padding-block: 12px 10px;
+  text-align: center;
+  color: var(--black, #0D444D);
+  font-family: "Roboto Mono";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.7px;
+  text-transform: uppercase;
+  border-radius: 100px;
+  box-shadow: 0px 2px 50px 0px rgba(185, 213, 217, 0.60);
+}
+
+.watch {
+  background-color: #fff;
+  margin-right: 15px;
+}
+
+.donate {
+  background-color: var(--white, #C5E1E5);
+}
